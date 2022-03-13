@@ -1,0 +1,36 @@
+@use "variables"as v;
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: (v.$ancho)-10%;
+    margin: auto;
+
+
+}
+
+.individual-videos {
+    width: v.$ancho;
+    height: 315px;
+    margin: 0;
+    padding: 30px 0;
+    border-bottom: #f8edeb solid 1px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: (v.$ancho)-20%;
+    margin: auto;
+    min-height: 10vh;
+    font-family: v.$fuente_principal;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+}
